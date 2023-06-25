@@ -1,0 +1,135 @@
+.site-header {
+  background-color: white;
+}
+.header-link {
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.sitenav-list {
+  list-style: none;
+}
+
+.main-link {
+  color: white;
+  background-color: #ff7500;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.hero {
+  background-color: #252420;
+  color: white;
+}
+
+.hero-content {
+  width: 390px;
+}
+
+.hero-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+.hero-heading {
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.hero-text {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.features-heading {
+  width: 440px;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.features-htwo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.class="features-textline" {
+  color: #000;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.features-thirdpart {
+  background-color: #252420;
+  columns: #fff;  
+}
+.features-thirdheding {
+  color: #fff;
+  font-size: 40px;
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+.third-text {
+  color: #fff;
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #252420;
+  font-size: 16px;
+  }
+.feeater-icon {
+ width: 100px;
+ height: 100px;
+ background-color: rgba(255, 117, 0, 0.2) ; 
+}
+.feature{
+  width: 340px;
+}
+.promo-content{
+  width: 400px;
+}
+.promo-highlight {
+  color: #ff7500;
+}
+.promo-image {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+ }
+ .site-footer{
+  background-color: #f8f8f8;
+ }
+ .site-footer-divider {
+  background-color: rgba(37, 36, 32, 0.5px);
+  height: 2px;
+ }
+ .site-footer ul {
+  list-style: none  ;
+ }
+.site-footer-link a {
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #252420;
+
+}
+.site-footer-link {
+  width: 224px;
+}
