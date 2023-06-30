@@ -1,5 +1,22 @@
-P {
-  font-family:monospace;
-  line-height: 1,50 ;
-  
+.parent {
+  background-color: aqua;
+  display: flex;
+  align-items:flex-center  ;
+  justify-content: center;
+}
+.child {
+  width: 300px;
+  font-size: 24px;
+  font-weight:bold ;
+  text-align: center;
+}
+
+.child-orange {
+  background-color: orange;
+  }
+.child-gold {
+  background-color: gold;
+}
+.child-green {
+  background-color: green;
 }
