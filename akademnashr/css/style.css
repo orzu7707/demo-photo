@@ -1,3 +1,9 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
 .site-header {
   background-color: white;
 }
@@ -7,6 +13,8 @@
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 15px;
 }
 .sitenav-list {
   list-style: none;
@@ -17,6 +25,7 @@
   background-color: #ff7500;
   text-decoration: none;
   font-size: 13px;
+  line-height: 15px;
   font-weight: 700;
 }
 
@@ -43,48 +52,40 @@
   font-weight: bolder;
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 .hero-text {
-  font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.5px;
 }
 .features-heading {
   width: 440px;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
-}
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  }
 .features-htwo {
   font-size: 24px;
-  font-weight: 700;
-  line-height: 120%;
-  letter-spacing: 0.5px;
-}
+  line-height: 1.2;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  }
 .class="features-textline" {
   color: #000;
-  font-size: 16px;
   font-family: Roboto;
   line-height: 150%;
-  letter-spacing: 0.5px;
 }
 .features-thirdpart {
   background-color: #252420;
-  columns: #fff;  
+  columns: #fff;
 }
 .features-thirdheding {
   color: #fff;
   font-size: 40px;
-  font-family: Roboto Condensed;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 .third-text {
   color: #fff;
-  font-size: 16px;
-  font-family: Roboto;
   line-height: 150%;
   letter-spacing: 0.5px;
 }
@@ -92,17 +93,16 @@
 .footer-link {
   text-decoration: none;
   color: #252420;
-  font-size: 16px;
-  }
-.feeater-icon {
- width: 100px;
- height: 100px;
- background-color: rgba(255, 117, 0, 0.2) ; 
 }
-.feature{
+.feeater-icon {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+.feature {
   width: 340px;
 }
-.promo-content{
+.promo-content {
   width: 400px;
 }
 .promo-highlight {
@@ -112,19 +112,18 @@
   width: 440px;
   height: 440px;
   object-fit: cover;
- }
- .site-footer{
+}
+.site-footer {
   background-color: #f8f8f8;
- }
- .site-footer-divider {
+}
+.site-footer-divider {
   background-color: rgba(37, 36, 32, 0.5px);
   height: 2px;
- }
- .site-footer ul {
-  list-style: none  ;
- }
+}
+.site-footer ul {
+  list-style: none;
+}
 .site-footer-link a {
-  font-size: 16px;
   line-height: 16px;
   text-decoration: none;
   color: #252420;
@@ -132,4 +131,5 @@
 }
 .site-footer-link {
   width: 224px;
+  line-height: 19px;
 }
