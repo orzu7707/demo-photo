@@ -4,6 +4,11 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   letter-spacing: 0.5px;
 }
+*:focus {
+  outline: #ff7500 2px dotted;
+  outline-offset: 3px;
+}
+
 .site-header {
   background-color: white;
   display: flex;
