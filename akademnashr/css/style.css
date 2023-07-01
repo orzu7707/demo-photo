@@ -10,6 +10,17 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.logo-link {
+  transition: ease;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+.logo-link:hover {
+  opacity: 0.8;
+}
+
 .site-header-action {
   display: flex;
   align-items: center;
@@ -22,10 +33,18 @@ body {
   text-decoration: none;
   letter-spacing: 1px;
   line-height: 15px;
+  transition: color 0, 4s ease, opacity 0.4s ease;
 }
 .sitenav-list {
   list-style: none;
   display: flex;
+}
+
+.header-link:hover {
+  color: #ff7500;
+}
+.header-link:active {
+  opacity: 0.6;
 }
 
 .main-link {
@@ -35,6 +54,15 @@ body {
   font-size: 13px;
   line-height: 15px;
   font-weight: 700;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -72,7 +100,6 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
- 
 }
 
 .features-heading {
@@ -93,7 +120,7 @@ body {
 }
 .features-thirdpart {
   background-color: #252420;
-    columns: #fff;
+  columns: #fff;
 }
 .features-thirdpart {
   display: flex;
@@ -124,7 +151,6 @@ body {
 
 .site-footer-bottom {
   display: flex;
-  
 }
 .footer-link {
   text-decoration: none;
@@ -163,6 +189,16 @@ body {
   line-height: 16px;
   text-decoration: none;
   color: #252420;
+}
+
+.site-footer-link a:hover {
+  color: #ff7500;
+}
+.site-footer-link a:focus {
+  opacity: 0.6;
+}
+.socials a:hover {
+  color: #ff7500;
 }
 .site-footer-link {
   width: 224px;
