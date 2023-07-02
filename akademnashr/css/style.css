@@ -14,6 +14,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .logo-link {
   transition: ease;
@@ -43,6 +46,7 @@ body {
 .sitenav-list {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .header-link:hover {
@@ -53,6 +57,10 @@ body {
 }
 
 .main-link {
+  font-weight: bold;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
   color: white;
   background-color: #ff7500;
   text-decoration: none;
@@ -71,6 +79,8 @@ body {
 }
 
 .hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #252420;
   color: white;
   display: flex;
@@ -86,9 +96,11 @@ body {
   width: 80px;
   height: 3px;
   background-color: #ff7500;
+  border: none;
 }
 
 .hero-img {
+  border-radius: 8px;
   width: 510px;
   height: 510px;
 }
@@ -102,9 +114,14 @@ body {
   line-height: 150%;
 }
 .features-list {
+  padding: 0;
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+.features {
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
 .features-heading {
@@ -123,6 +140,20 @@ body {
   font-family: Roboto;
   line-height: 150%;
 }
+
+.promo-content {
+  width: 400px;
+}
+
+.promo-highlight {
+  color: #ff7500;
+}
+.promo-image {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 12px;
+}
 .features-thirdpart {
   background-color: #252420;
   columns: #fff;
@@ -131,6 +162,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
 }
 
 .features-thirdheding {
@@ -152,6 +184,9 @@ body {
 }
 .socials {
   display: flex;
+  padding: 0;
+  align-items: center;
+
 }
 
 .site-footer-bottom {
@@ -162,33 +197,31 @@ body {
   color: #252420;
 }
 .feeater-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
 }
 .feature {
   width: 340px;
 }
-.promo-content {
-  width: 400px;
-}
-.promo-highlight {
-  color: #ff7500;
-}
-.promo-image {
-  width: 440px;
-  height: 440px;
-  object-fit: cover;
-}
+
 .site-footer {
   background-color: #f8f8f8;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 .site-footer-divider {
   background-color: rgba(37, 36, 32, 0.5px);
   height: 2px;
+  
 }
 .site-footer ul {
   list-style: none;
+  padding: 0;
 }
 .site-footer-link a {
   line-height: 16px;
